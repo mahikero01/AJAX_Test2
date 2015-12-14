@@ -18,6 +18,7 @@ request.onreadystatechange = function () {
 }
 */
 
+
 //Testing for xml usage
 /*
 request.open('GET', 'data.xml');
@@ -40,7 +41,7 @@ request.onreadystatechange = function () {
 
 //Testing for json usage
 
-
+request.open('GET', 'data.json');
 request.onreadystatechange = function () {
     if ((request.readyState === 4) && (request.status === 200)) {
         var items = JSON.parse(request.responseText);
@@ -49,6 +50,6 @@ request.onreadystatechange = function () {
     }
 }
 
-request.open('GET', 'data.json');
+
 request.send();
     
