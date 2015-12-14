@@ -1,5 +1,11 @@
 ﻿
-var request = new XMLHttpRequest();
+var request;
+if (window.XMLHttpRequest) {
+    request = new XMLHttpRequest();
+} else {
+    request = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
 /*
 request.open('GET', 'data.txt');
 request.onreadystatechange = function () {
@@ -18,7 +24,7 @@ request.open('GET', 'data.xml');
 request.onreadystatechange = function () {
     if ((request.readyState === 4) && (request.status === 200)) {
         console.log(request.responseXML.getElementsByTagName('name')[1].childNodes[0].nodeValue);
-
+        
         var items = request.responseXML.getElementsByTagName('name')
         var output = '<ul>'
         for (var i = 0; i < items.length; i++) {
@@ -31,12 +37,15 @@ request.onreadystatechange = function () {
 }
 */
 
+
 //Testing for json usage
+
 request.open('GET', 'data.json');
 request.onreadystatechange = function () {
     if ((request.readyState === 4) && (request.status === 200)) {
         var items = JSON.parse(request.responseText);
         console.log(items);
+    
     }
 }
 
