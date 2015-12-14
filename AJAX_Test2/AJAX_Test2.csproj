@@ -70,7 +70,10 @@
     <None Include="data.json" />
     <Content Include="Index.html" />
     <Content Include="data.txt" />
+    <Content Include="index_Jquery.html" />
+    <Content Include="js\jquery-1.11.3.min.js" />
     <Content Include="js\script.js" />
+    <Content Include="js\script_jquery.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
