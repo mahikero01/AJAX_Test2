@@ -4,3 +4,9 @@ P:\SandBox\AJAX_Test2\AJAX_Test2\bin\AJAX_Test2.pdb
 P:\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.csprojResolveAssemblyReference.cache
 P:\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.dll
 P:\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.pdb
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\bin\AJAX_Test2.dll.config
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\bin\AJAX_Test2.dll
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\bin\AJAX_Test2.pdb
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.csprojResolveAssemblyReference.cache
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.dll
+C:\Users\Mahikero01\Documents\SandBox\AJAX_Test2\AJAX_Test2\obj\Debug\AJAX_Test2.pdb
